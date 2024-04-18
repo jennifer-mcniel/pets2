@@ -5,10 +5,14 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home Page</title>
+    <title>Document</title>
 </head>
 <body>
-    <img src="img/petpic.jpg">
-    <h3><a href="order">Order a Pet</a></h3>
+<div class="container">
+    <h1>Thank you for ordering a {{ @SESSION.color }} {{ @SESSION.pet }}!</h1>
+
+    <a href="{{ @BASE }}">Home page</a>
+</div>
+
 </body>
 </html>
