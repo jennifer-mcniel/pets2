@@ -1,0 +1,13 @@
+{
+  "name": "jmcnielg/328/pets2",
+  "authors": [
+    {
+      "name": "Jennifer McNiel",
+      "email": "mcniel.jennifer@student.greenriver.edu"
+    }
+  ],
+  "require":
+  {
+    "bcosca/fatfree-core": "dev-master"
+  }
+}
